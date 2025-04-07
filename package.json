@@ -1,0 +1,36 @@
+{
+  "name": "valheim-2d",
+  "description": "A 2D implementation of Valheim on Phaser 3",
+  "version": "0.0.1-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoK6n/valheim-2d.git"
+  },
+  "author": "DoK6n (https://github.com/DoK6n)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/DoK6n/valheim-2d/issues"
+  },
+  "homepage": "https://github.com/DoK6n/valheim-2d#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "node log.js dev & vite --config vite/config.dev.mjs",
+    "build": "node log.js build & vite build --config vite/config.prod.mjs",
+    "dev-nolog": "vite --config vite/config.dev.mjs",
+    "build-nolog": "vite build --config vite/config.prod.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.24.0",
+    "terser": "^5.31.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  }
+}
