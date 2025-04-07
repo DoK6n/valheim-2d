@@ -1,0 +1,23 @@
+{
+    "Phaser Scene": {
+        "scope": "typescript",
+        "prefix": "scene",
+        "body": [
+            "import { Scene } from 'phaser'",
+            "",
+            "export class ${TM_FILENAME_BASE} extends Scene",
+            "{",
+            "    constructor ()",
+            "    {",
+            "        super('${TM_FILENAME_BASE}')",
+            "    }",
+            "",
+            "    create ()",
+            "    {",
+            "        $0",
+            "    }",
+            "}"
+        ],
+        "description": "Create a new Phaser Scene class"
+    }
+} 
